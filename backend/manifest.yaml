@@ -14,16 +14,16 @@ spec:
    app: backend
    tier: backend
    project: expense  
-template:
- metadata:
-  labels:
-   app: backend
-   tier: backend
-   project: expense
-  spec:
-   containers:
-    name: backend
-    image: joindevops/backend:1.0.0
+ template:
+  metadata:
+   labels:
+    app: backend
+    tier: backend
+    project: expense
+   spec:
+    containers:
+     name: backend
+     image: joindevops/backend:1.0.0
     
 ---
 
